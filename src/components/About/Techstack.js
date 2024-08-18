@@ -4,11 +4,11 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+
   DiGit,
 } from "react-icons/di";
-import { FaPython } from "react-icons/fa";
-import { SiTensorflow, SiKeras, SiAmazonaws } from "react-icons/si";
+import { FaPython, FaFileExcel } from "react-icons/fa";
+import { SiTensorflow, SiKeras, SiAmazonaws, SiMysql, SiPowerbi ,SiPandas, SiNumpy} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -22,9 +22,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
+     
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
@@ -40,6 +38,22 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaFileExcel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPowerbi />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiPandas />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
+
     </Row>
   );
 }

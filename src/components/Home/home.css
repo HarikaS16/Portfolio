@@ -141,13 +141,13 @@
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 10px !important;
   background-color: var(--clr-bg-alt);
 }
 
 .home-about-description {
   color: var(--clr-txt) !important;
-  padding-top: 100px !important;
+  padding-top: 30px !important;
   padding-bottom: 20px !important;
   text-align: center !important;
 }

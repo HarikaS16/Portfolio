@@ -4,7 +4,7 @@ import homeIcon from "../../Assets/homeicons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import Home2 from "./Home2";
-import Type from "./Type";
+
 import "./home.css";
 
 function Home() {
@@ -26,9 +26,7 @@ function Home() {
                 <strong className="main-name"> Harika Santhoshini</strong>
               </h1>
 
-              <div style={{ padding: 30 }} className="type">
-                <Type />
-              </div>
+              
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
