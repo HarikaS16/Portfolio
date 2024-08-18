@@ -3,10 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
 
-import PrivateChat from "../../Assets/Projects/PrivateChat.png";
-import Portfolio from "../../Assets/Projects/Portfolio.png";
-import Ecart from "../../Assets/Projects/ecart.png";
-import ExpenseTracker from "../../Assets/Projects/ExpenseTracker.png";
 import Density from "../../Assets/Projects/WhatsApp Image 2024-07-13 at 19.42.51_5f56c846.jpg";
 import Elearning from "../../Assets/Projects/WhatsApp Image 2024-07-13 at 19.46.45_1b230c6d.jpg"
 import "./project.css";

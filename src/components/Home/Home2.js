@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/Avatar.png";
-import Tilt from "react-parallax-tilt";
+
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
